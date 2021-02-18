@@ -1,0 +1,83 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  color: #212112; }
+  body .container-fluid {
+    padding-left: 0%;
+    margin-left: 0%; }
+    body .container-fluid .nav__logo {
+      width: 30%; }
+    body .container-fluid .nav__menu__lista a:hover {
+      transition: 500ms;
+      transform: scale(1.2); }
+    body .container-fluid .nav__menu__desplegable {
+      background: greenyellow;
+      border-radius: 2px solid;
+      border-color: orange; }
+    body .container-fluid .productos__ps {
+      background-image: url(../img/playStation/logoPlay.jpg);
+      height: 450px;
+      background-size: cover;
+      background-position: center;
+      margin-top: 10px; }
+    body .container-fluid .productos__xbox {
+      background-image: url(../img/xbox/logoxbox.jpg);
+      height: 450px;
+      background-size: cover;
+      background-position: center;
+      margin-top: 10px; }
+    body .container-fluid .producto1 {
+      background-image: url(../img/games/residentEvil.jpg);
+      height: 900px;
+      background-size: cover;
+      background-position: center;
+      margin-top: 10px; }
+    body .container-fluid .producto2 {
+      background-image: url(../img/xbox/gamePass.jpg);
+      background-size: cover;
+      background-position: center;
+      height: 450px;
+      margin-top: 10px; }
+    body .container-fluid .producto3 {
+      background-image: url(../img/playStation/psnPlus.jpg);
+      background-size: cover;
+      background-position: center;
+      height: 450px;
+      margin-top: 10px; }
+    body .container-fluid .imgConsolas {
+      background-image: url(../img/ps5-XboxX.jpg);
+      background-size: cover;
+      background-position: center;
+      height: 450px;
+      margin-top: 10px; }
+      body .container-fluid .imgConsolas .imgConsolas__titulo {
+        text-align: center;
+        color: #84d36b;
+        font-size: 50px;
+        font-family: 'Potta One', cursive; }
+    body .container-fluid .producto4 {
+      background-image: url(../img/games/hitman.jpg);
+      height: 900px;
+      background-size: cover;
+      background-position: center;
+      margin-top: 10px; }
+    body .container-fluid .producto5 {
+      background-image: url(../img/games/yakuza.jpg);
+      height: 900px;
+      background-size: cover;
+      background-position: center;
+      margin-top: 10px;
+      margin-bottom: 10px; }
+    body .container-fluid .footer {
+      background: black;
+      color: white; }
+      body .container-fluid .footer .footer__registro {
+        text-decoration: none;
+        color: #705e5e; }
+      body .container-fluid .footer .footer__lista {
+        list-style: none; }
+      body .container-fluid .footer .footer__lista__parrafo {
+        cursor: pointer; }
+      body .container-fluid .footer .footer__lista__derechos {
+        display: flex;
+        justify-content: space-between; }

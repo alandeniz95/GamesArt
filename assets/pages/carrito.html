@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Games Art Venta online de videojuegos Carrito Compra">
+  <meta name="keywords" content="Carrito de compras de Games Art">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <script defer src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="../css/carrito.css">
+  <script defer src="../js/app.js"></script>
+  <link rel="icon" type="img/jpg" href="../img/icon.jpg">
+  <title>Carrito de compras</title>
+</head>
+<body>
+  <!-- COMIENZO DE NAVEGADORES -->
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-12 col-xs-12">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <a class="navbar-brand" href="../../index.html"><img src="../img/logo.jpg" class="img-fluid logo"></a>
+          <a href="../index.html" class=" d-lg-none  navbar-brand">Project Market</a>
+          <a href="../index.html" class="d-none d-lg-block navbar-brand">Project Market</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="../../index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="registro.html">Unete a nosotros</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Productos
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="productosPS.html">Productos de Play Station</a>
+                  <a class="dropdown-item" href="productosXbox.html">Productos de Xbox</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="login.html">Iniciar sesión</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="carrito.html">Carrito</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <!-- CIERRE DE NAVEGADORES -->
+
+    <!-- COMIENZO DE TABLA CARRITO -->
+    <div id="cart" class="my-5">
+      <h4>Carrito de Compras</h4>
+      <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">Marca</th>
+            <th scope="col">Modelo</th>
+            <th scope="col">Cantidad</th>
+            <th scope="col">Accion</th>
+            <th scope="col">Total</th>
+          </tr>
+        </thead>
+        <tbody id="items"></tbody>
+        <tfoot>
+          <tr id="footer-carrito">
+            <th scope="row" colspan="5">Carrito Vacio. Comienza agregando productos!</th>
+          </tr>
+        </tfoot>
+      </table>
+    </div>
+
+
+    <template id="template-footer">
+      <th scope="row" colspan="2">Total productos</th>
+      <td>10</td>
+      <td>
+        <button class="btn btn-info btn-sm" id="finalizar-compra">
+          Finalizar Compra
+        </button>
+        <button class="btn btn-danger btn-sm" id="vaciar-carrito">
+              Vaciar Todo
+        </button>
+      </td>
+      <td class="font-weight-bold">$ <span>Precio</span></td>
+    </template>
+
+    <template id="template-carrito">
+      <tr>
+        <td>Indoor</td>
+        <th scope="row">id</th>
+        <td>1</td>
+        <td>
+            <button class="btn btn-info btn-sm">
+                +
+            </button>
+            <button class="btn btn-danger btn-sm">
+                -
+            </button>
+        </td>
+        <td>$ <span>Precio</span></td>
+      </tr>
+    </template>
+  <!-- CIERRE DE TABLA CARRITO -->
+    <!-- Comienzo de footer -->
+    <footer>
+      <div class="row footer">
+        <div class="col-lg-4 col-xs-4">
+          <a class="footer__registro" href="#"><h7 class="footer-registro">REGISTRATE PARA RECIBIR NOVEDADES</h7></a>
+        </div>
+        <div class="col-lg-4 col-xs-4">
+          <ul class="footer__contacto">
+            <li>
+              <h7>COMUNICATE CON NOSTROS</h7>
+              <p>Télefono: 0810-555-GAME</p> 
+            </li>
+          </ul>
+        </div>
+        <div class="col-lg-4 col-xs-4">
+          <ul class="footer__info">
+            <li>
+              <h7>ACERCA DE NOSOTROS</h7>
+              <P>Noticias</P>
+              <p>Empleo</p>
+              <p>Inversores</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="row footer">
+        <div class="col-lg-12 col-xs-12">
+            <ul class="footer__derechos">
+              <p>© 2021 Project Market, Inc. Todos los derechos reservados</p>
+              <p>Términos de uso</p>
+              <p>Política de privacidad</p>
+            </ul>
+        </div>
+      </div>
+    </footer>
+    <!-- Cierre de footer -->
+  </div>
+</body>
+</html>

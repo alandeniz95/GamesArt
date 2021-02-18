@@ -1,0 +1,244 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+body{
+  background-image: url(https://static.wixstatic.com/media/46e029_f3ed1bbcce834d089b1aa4e4ce418838.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.containerPrincipal{
+  display: flex;
+  justify-content: center;
+  height: 150px;
+}
+.classLogo{
+  width: auto;
+}
+#logo{
+  position: relative;
+  width: 80px;
+  margin-left: -100px;
+}
+.menu{
+  margin-left: 30%
+}
+.menu li{
+  display: inline-flex;
+  position: relative;
+  margin: 15px;
+  top: 80px;
+}
+.menu li a{
+  text-decoration: none;
+  color: white
+}
+.menu li a:hover{
+  color: rgb(43, 145, 145);
+}
+.nav-login ul{
+  display: inline-flex;
+  position: relative;
+  list-style: none;
+  margin-left: 300px;
+  top: 10px;
+}
+.nav-login li a{
+  text-decoration: none;
+  color: white
+}
+.nav-login li a:hover{
+  color:  rgb(43, 145, 145);
+}
+main{
+  width: 100%;
+  padding: 20px;
+  margin: auto;
+  margin-top: 100px;
+}
+.contenedor{
+  color: rgb(255, 255, 255);
+  width: 100%;
+  max-width: 920px;
+  margin: auto;
+  position: relative;
+}
+.caja-trasera{
+  width:88%;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: center;
+  backdrop-filter: blur(5px);
+  background-color: rgb(34, 186, 236, 0.2);
+}
+.caja-trasera div{
+  margin: 100px 70px;
+  transition: all 500ms;
+}
+.caja-trasera div p, .caja-trasera div button{
+  margin-top: 30px;
+}
+.caja-trasera div h3{
+  font-weight: 400;
+  font-size: 25px;
+}
+.caja-trasera button{
+  padding: 10px;
+  border: solid 2px;
+  background: transparent;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  color: white;
+  outline: none;
+  transition: 400ms;
+  border-radius: 5px;
+}
+.caja-trasera button:hover{
+  background: white;
+  color: rgb(34, 186, 236);;
+}
+.contenedor-login-registro{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 380px;
+  position: relative;
+  top: -205px;
+  left: 10px;
+  transition: left 500ms cubic-bezier(0.175, 0.885, 0.320, 1.275);
+}
+form{
+  width: 100%;
+  padding: 80px 20px;
+  background: white;
+  position: absolute;
+  border-radius: 20px;
+}
+
+form h2{
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 20px;
+  color: rgb(34, 186, 236);
+}
+form input{
+  width: 100%;
+  margin-top: 20px;
+  padding: 10px;
+  background:rgb(212, 212, 212);
+  border: none;
+  outline: none;
+}
+form button{
+  padding: 10px 40px;
+  margin-top: 30px;
+  background-color: rgb(34, 186, 236);
+  color: white;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: 400ms;
+}
+form button:hover{
+  background: white;
+  color: rgb(34, 186, 236);
+  border: solid 2px;
+}
+.form-login{
+  opacity: 1;
+  display: block;
+}
+.form-registro{
+  display: none;
+}
+
+.form-registro label{
+  text-align: center;
+  display: block;
+  padding: 10px;
+  color: black;
+  opacity: 1;
+  cursor: pointer;
+}
+form select{
+  width: 100%;
+  margin-top: 20px;
+  padding: 10px;
+  background:rgb(212, 212, 212);
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+form #reset{
+  width: 165px;
+  padding: 10px 40px;
+  margin-top: 30px;
+  background-color: rgb(34, 186, 236);
+  color: white;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: 400ms;
+}
+form #reset:hover{
+  background: white;
+  color: rgb(34, 186, 236);
+  border: solid 2px;
+}
+footer{
+  display: flex;
+  flex-wrap: wrap;
+  background: black;
+  width: 100%;
+  height: 200px;
+  color: white;
+  margin-top: 200px;
+}
+.footer-registro{
+  position: relative;
+  margin-left: 10px;
+  width: auto;
+  height: 20px;
+}
+p{
+  cursor: pointer;
+}
+.contacto li{
+  list-style: none;
+}
+.contacto{
+  display: flex;
+  justify-content: center;
+  margin-left: 200px;
+  width: auto;
+}
+.acerca-de-nosotros{
+  display: flex;
+  justify-content: right;
+  margin-left: 100px;
+}
+.derechos{
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  height: 50px;
+  margin-left: 40px;
+  width: auto;
+}
+footer a{
+  display: flex;
+  text-decoration: none;
+  color: rgb(168, 168, 168);
+}
+footer a:hover{
+  color: white;
+}
+.acerca-de-nosotros li{
+  list-style: none;
+}

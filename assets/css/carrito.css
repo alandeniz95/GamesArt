@@ -1,0 +1,16 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+body{
+  background-image: url(https://static.wixstatic.com/media/46e029_f3ed1bbcce834d089b1aa4e4ce418838.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+table th, h4 {
+  color: white;
+}

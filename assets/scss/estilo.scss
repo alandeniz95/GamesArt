@@ -1,0 +1,110 @@
+$texto: 16px;
+$color: #212112;
+$margin: 10px;
+$imgGrandes: 900px;
+$imgChicas: 450px;
+
+body{
+  font-family: 'Poppins', sans-serif;
+  font-size: $texto;
+  color: $color;
+  .container-fluid{
+    padding-left: 0%;
+    margin-left: 0%;
+    .nav__logo{
+      width: 30%;
+    }
+    .nav__menu__lista a:hover{
+      transition: 500ms;
+      transform:scale(1.2);
+    }
+    .nav__menu__desplegable{
+      background: greenyellow;
+      border-radius: 2px solid;
+      border-color: orange;
+    }
+    .productos__ps{
+      background-image: url(../img/playStation/logoPlay.jpg);
+      height: $imgChicas;
+      background-size: cover;
+      background-position: center;
+      margin-top: $margin;
+    }
+    .productos__xbox{
+      background-image: url(../img/xbox/logoxbox.jpg);
+      height: $imgChicas;
+      background-size: cover;
+      background-position: center;
+      margin-top: $margin;
+    }
+    .producto1{
+      background-image: url(../img/games/residentEvil.jpg);
+      height: $imgGrandes;
+      background-size: cover;
+      background-position: center;
+      margin-top: $margin;
+    }
+    .producto2{
+      background-image: url(../img/xbox/gamePass.jpg);
+      background-size: cover;
+      background-position: center;
+      height: $imgChicas;
+      margin-top: $margin;
+    }
+    .producto3{
+      background-image: url(../img/playStation/psnPlus.jpg);
+      background-size: cover;
+      background-position: center;
+      height: $imgChicas;
+      margin-top: $margin;
+    }
+    .imgConsolas{
+      background-image: url(../img/ps5-XboxX.jpg);
+      background-size: cover;
+      background-position: center;
+      height: $imgChicas;
+      margin-top: $margin;
+      .imgConsolas__titulo{
+        text-align: center;
+        color: rgb(132, 211, 107);
+        font-size: 50px;
+        font-family: 'Potta One', cursive;
+      }
+    }
+    .producto4{
+      background-image: url(../img/games/hitman.jpg);
+      height: $imgGrandes;
+      background-size: cover;
+      background-position: center;
+      margin-top: $margin;
+    }
+    .producto5{
+      background-image: url(../img/games/yakuza.jpg);
+      height: $imgGrandes;
+      background-size: cover;
+      background-position: center;
+      margin-top: $margin;
+      margin-bottom: $margin;
+    }
+    .footer{
+      background: black;
+      color: white;
+      .footer__registro{
+        text-decoration: none;
+        color: rgb(112, 94, 94);
+      }
+      .footer__lista{
+        list-style: none;
+      }
+      .footer__lista__parrafo{
+        cursor: pointer;
+      }
+      .footer__lista__derechos{
+        display: flex;
+        justify-content: space-between;
+      }
+    }  
+  }
+}
+
+  
