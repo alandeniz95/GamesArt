@@ -9,7 +9,7 @@ body{
     padding-left: 0%;
     margin-left: 0%;
     .nav__logo{
-      width: 90%;
+      width: 20%;
       @media (min-width: 420px) and (max-width: 430px){
         @include size(40px, 40px);
       }
@@ -55,17 +55,21 @@ body{
       background-position: center;
       margin-top: $margin;
       @include size (735px, 1010px);
+        @media (max-width: 320px){
+          @include size(305px, 650px);
+        }
       @media (min-width: 370px) and (max-width: 380px){
         @include size(360px, 450px);
       }
-      @media (min-width: 310px) and (max-width: 330px){
-        @include size(305px, 400px);
-      }
+      
       .producto1__titulo{
         color: $white;
         font-family: 'Anton', sans-serif;
         font-size: 60px;
         text-align: center;
+        @media (max-width: 320px){
+          font-size: 20px;
+        }
       }
       .producto1__parrafo{
         color: $white;
@@ -73,6 +77,10 @@ body{
         font-size: 30px;
         text-align: center;
         padding-top: 650px;
+        @media (max-width: 320px){
+          font-size: 20px;
+          padding-top: 450px;
+        }
       }
       .producto1__link{
         display: flex;
@@ -88,6 +96,9 @@ body{
       background-position: center;
       cursor: pointer;
       @include size (350px, 500px);
+      @media (max-width: 320px){
+        @include size(305px, 450px);
+      } 
       margin-top: $margin;
       @media (min-width: 370px) and (max-width: 380px){
         @include size(360px, 290px);
@@ -95,9 +106,6 @@ body{
       @media (min-width: 370px) and (max-width: 380px){
         @include size(360px, 290px);
       }
-      @media (min-width: 310px) and (max-width: 330px){
-        @include size(305px, 280px);
-      } 
     }
     .producto2__info{
       background: $greenXbox;
@@ -106,15 +114,24 @@ body{
       cursor: pointer;
       @include size (390px, 500px);
       text-align: center;
+      @media (max-width: 320px){
+        @include size(340px, 450px);
+      } 
       .producto2__info__titulo{
         padding: 40px;
         font-family: 'Lexend Mega', sans-serif;
         color:white;
+        @media (max-width: 320px){
+          font-size: 20px;
+        } 
       }
       .producto2__info__parrafo{
         font-family: 'Lexend Mega', sans-serif;
         color:white;
         padding: 50px;
+        @media (max-width: 320px){
+          font-size: 15px;
+        } 
       }
       .producto2__info__link{
         font-family: 'Lexend Mega', sans-serif;
@@ -128,20 +145,20 @@ body{
     }
     .producto3{
       background-image: url(../img/playStation/psnPlus.jpg);
-     background-size: cover;
-      background-position: center;
+      background-size: cover;
+      background-position: $centrar;
       cursor: pointer;
+      @media (max-width: 320px){
+        @include size(305px, 450px);
+      }
       @include size (350px, 500px);
       margin-top: $margin;
       @media (min-width: 410px) and (max-width: 430px){
         @include size(410px, 300px);
       } 
       @media (min-width: 370px) and (max-width: 380px){
-        @include size(360px, 290px);
+        @include size(30px, 290px);
       } 
-      @media (min-width: 310px) and (max-width: 330px){
-        @include size(305px, 250px);
-      }
     }
     .producto3__info{
       background: $blue;
@@ -150,15 +167,24 @@ body{
       cursor: pointer;
       text-align: center;
       @include size (390px, 500px);
+      @media (max-width: 320px){
+        @include size(340px, 450px);
+      } 
       .producto3__info__titulo{
         padding: 40px;
         font-family: 'Lexend Mega', sans-serif;
         color:white;
+        @media (max-width: 320px){
+          font-size: 30px;
+        } 
       }
       .producto3__info__parrafo{
         font-family: 'Lexend Mega', sans-serif;
         color:white;
         padding: 50px;
+        @media (max-width: 320px){
+          font-size: 15px;
+        } 
       }
       .producto3__info__link{
         font-family: 'Lexend Mega', sans-serif;
@@ -235,6 +261,16 @@ body{
         @include size(305px, 380px);
       } 
     }
+
+    .card{
+      width: 80%;
+    }
+    .card__img:hover{
+      transition: 500ms;
+      transform:scale(1.2);
+    }
+
+
     .footer{
       background: $black;
       color: $white;

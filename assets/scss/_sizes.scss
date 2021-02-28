@@ -4,6 +4,7 @@ $texto_chico: 10px;
 $margin: 10px;
 $imgGrandes: 900px;
 $imgChicas: 450px;
+$centrar: center;
 @mixin size($width, $height) {
   width: $width;
   height: $height;
