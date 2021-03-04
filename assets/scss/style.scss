@@ -9,16 +9,7 @@ body{
     padding-left: 0%;
     margin-left: 0%;
     .nav__logo{
-      width: 20%;
-      @media (min-width: 420px) and (max-width: 430px){
-        @include size(40px, 40px);
-      }
-      @media (min-width: 370px) and (max-width: 420px){
-        @include size(30px, 30px);
-      }
-      @media (min-width: 310px) and (max-width: 370px){
-        @include size(30px, 30px);
-      }
+      width: 45px;
     }
     .nav__menu__lista a:hover{
       transition: 500ms;
@@ -33,41 +24,33 @@ body{
       background-image: url(../img/playStation/logoPlay.jpg);
       height: $imgChicas;
       background-size: cover;
-      background-position: center;
+      background-position: $centrar;
       margin-top: $margin;
-      @media (min-width: 370px) and (max-width: 380px){
-        @include size(360px, 290px);
-      } 
     }
     .productos__xbox{
       background-image: url(../img/xbox/logoxbox.jpg);
       height: $imgChicas;
       background-size: cover;
-      background-position: center;
+      background-position: $centrar;
       margin-top: $margin;
-      @media (min-width: 370px) and (max-width: 380px){
-        @include size(360px, 290px);
-      } 
     }
     .producto1{
       background-image: url(../img/games/residentEvil.jpg);
       background-size: cover;
-      background-position: center;
+      background-position: $centrar;
       margin-top: $margin;
-      @include size (735px, 1010px);
-        @media (max-width: 320px){
-          @include size(305px, 650px);
-        }
-      @media (min-width: 370px) and (max-width: 380px){
-        @include size(360px, 450px);
+      @media (min-width: 992px){
+        height: 800px;
       }
-      
+      @media (min-width: 1024px){
+        height: 900px;
+      }
       .producto1__titulo{
         color: $white;
         font-family: 'Anton', sans-serif;
         font-size: 60px;
-        text-align: center;
-        @media (max-width: 320px){
+        text-align: $centrar;
+        @media (min-width: 320px){
           font-size: 20px;
         }
       }
@@ -75,9 +58,9 @@ body{
         color: $white;
         font-family: 'Anton', sans-serif;
         font-size: 30px;
-        text-align: center;
+        text-align: $centrar;
         padding-top: 650px;
-        @media (max-width: 320px){
+        @media (min-width: 320px){
           font-size: 20px;
           padding-top: 450px;
         }
@@ -87,48 +70,46 @@ body{
         justify-content: center;
         color: $white;
         font-size: 20px;
-        padding-top: $margin;
       }
     }
     .producto2{
+      margin-top: 10px;
       background-image: url(../img/xbox/gamePass.jpg);
       background-size: cover;
-      background-position: center;
-      cursor: pointer;
-      @include size (350px, 500px);
-      @media (max-width: 320px){
-        @include size(305px, 450px);
-      } 
+      background-position: $centrar;
       margin-top: $margin;
-      @media (min-width: 370px) and (max-width: 380px){
-        @include size(360px, 290px);
+      @media (min-width: 320px){
+        height: 225px;
+        background-position: top;
       }
-      @media (min-width: 370px) and (max-width: 380px){
-        @include size(360px, 290px);
+      @media (min-width: 375px){
+        height: 265px;
+      }
+      @media (min-width: 992px){
+        height: 350px;
+      }
+      @media (min-width: 1024px){
+        height: 550px;
       }
     }
     .producto2__info{
       background: $greenXbox;
-      margin-top: 10px;
-      margin-left: -35px;
       cursor: pointer;
-      @include size (390px, 500px);
-      text-align: center;
-      @media (max-width: 320px){
-        @include size(340px, 450px);
-      } 
+      text-align: $centrar;
+      @media (min-width: 320px){
+        height: 250px;
+      }
       .producto2__info__titulo{
-        padding: 40px;
+        padding: 20px;
         font-family: 'Lexend Mega', sans-serif;
         color:white;
-        @media (max-width: 320px){
+        @media (min-width: 320px){
           font-size: 20px;
-        } 
+        }
       }
       .producto2__info__parrafo{
         font-family: 'Lexend Mega', sans-serif;
         color:white;
-        padding: 50px;
         @media (max-width: 320px){
           font-size: 15px;
         } 
@@ -136,62 +117,60 @@ body{
       .producto2__info__link{
         font-family: 'Lexend Mega', sans-serif;
         color:white;
-        padding: 40px;
-        font-size: 20px;
+        padding-top: 10px;
+        font-size: 18px;
       }
       .producto2__info__link:hover{
         color: $green;
       }
     }
     .producto3{
+      margin-top: 10px;
       background-image: url(../img/playStation/psnPlus.jpg);
       background-size: cover;
       background-position: $centrar;
-      cursor: pointer;
-      @media (max-width: 320px){
-        @include size(305px, 450px);
-      }
-      @include size (350px, 500px);
       margin-top: $margin;
-      @media (min-width: 410px) and (max-width: 430px){
-        @include size(410px, 300px);
-      } 
-      @media (min-width: 370px) and (max-width: 380px){
-        @include size(30px, 290px);
-      } 
+      @media (min-width: 320px){
+        height: 225px;
+        background-position: top;
+      }
+      @media (min-width: 375px){
+        height: 265px;
+      }
+      @media (min-width: 992px){
+        height: 350px;
+      }
+      @media (min-width: 1024px){
+        height: 550px;
+      }
     }
     .producto3__info{
       background: $blue;
-      margin-top: 10px;
-      margin-left: -35px;
       cursor: pointer;
-      text-align: center;
-      @include size (390px, 500px);
-      @media (max-width: 320px){
-        @include size(340px, 450px);
-      } 
+      text-align: $centrar;
+      @media (min-width: 320px){
+        height: 250px;
+      }
       .producto3__info__titulo{
-        padding: 40px;
+        padding: 30px;
         font-family: 'Lexend Mega', sans-serif;
         color:white;
-        @media (max-width: 320px){
-          font-size: 30px;
-        } 
+        @media (min-width: 320px){
+          font-size: 20px;
+        }
       }
       .producto3__info__parrafo{
         font-family: 'Lexend Mega', sans-serif;
         color:white;
-        padding: 50px;
-        @media (max-width: 320px){
+        text-align: center;
+        @media (min-width: 320px){
           font-size: 15px;
         } 
       }
       .producto3__info__link{
         font-family: 'Lexend Mega', sans-serif;
         color:white;
-        padding: 40px;
         font-size: 20px;
-        
       }
       .producto3__info__link:hover{
         color: $light_blue;
@@ -217,49 +196,31 @@ body{
         color: $green;
         font-size: 50px;
         font-family: 'Potta One', cursive;
-        @media (min-width: 420px) and (max-width: 430px){
+        @media (min-width: 310px){
+          font-size: $texto_mediano;
+        } 
+        @media (min-width: 370px){
           font-size: $texto_mediano;
         }
-        @media (min-width: 370px) and (max-width: 380px){
-          font-size: $texto_chico;
+        @media (min-width: 420px){
+          font-size: $texto_mediano;
         }
-        @media (min-width: 310px) and (max-width: 330px){
-          font-size: $texto_chico;
-        } 
       }
     }
     .producto4{
       background-image: url(../img/games/hitman.jpg);
-      height: $imgGrandes;
+      height: 500px;
       background-size: cover;
       background-position: center;
       margin-top: $margin;
-      @media (min-width: 420px) and (max-width: 430px){
-        @include size(410px, 300px);
-      }
-      @media (min-width: 370px) and (max-width: 380px){
-        @include size(360px, 290px);
-      }
-      @media (min-width: 310px) and (max-width: 330px){
-        @include size(305px, 380px);
-      } 
     }
     .producto5{
       background-image: url(../img/games/yakuza.jpg);
-      height: $imgGrandes;
+      height: 500px;
       background-size: cover;
       background-position: center;
       margin-top: $margin;
       margin-bottom: $margin;
-      @media (min-width: 420px) and (max-width: 430px){
-        @include size(410px, 300px);
-      }
-      @media (min-width: 370px) and (max-width: 380px){
-        @include size(360px, 290px);
-      }
-      @media (min-width: 310px) and (max-width: 330px){
-        @include size(305px, 380px);
-      } 
     }
 
     .card{
