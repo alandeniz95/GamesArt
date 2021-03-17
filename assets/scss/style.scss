@@ -1,6 +1,10 @@
 @import "colors";
 @import "sizes";
 
+.login{
+  background-image: url(../img/background.jpg);
+  
+}
 body{
   font-family: 'Poppins', sans-serif;
   font-size: $texto;
@@ -12,13 +16,35 @@ body{
       width: 45px;
     }
     .nav__menu__lista a:hover{
-      transition: 500ms;
       transform:scale(1.2);
+      transition: 500ms;
+      @media (max-width: 992px){
+        transform: translate(15px);
+      }
     }
     .nav__menu__desplegable{
       background: $green;
       border-radius: 2px solid;
       border-color: $light_blue;
+    }
+
+    .modal-form{
+      border: 1px solid;
+      border-color: $light_blue;
+      .img_avatar{
+        width: 200px;
+        margin-top: 10px;
+      }
+      .form_login{
+        padding: 15px;
+      }
+      #contrasena-group{
+        margin-top: 10px;
+      }
+      .form-control{
+        background: $light_blue;
+        margin-top: 10px;
+      }
     }
     .productos__ps{
       background-image: url(../img/playStation/logoPlay.jpg);
@@ -40,10 +66,10 @@ body{
       background-position: $centrar;
       margin-top: $margin;
       @media (min-width: 992px){
-        height: 800px;
+        height: 700px;
       }
       @media (min-width: 1024px){
-        height: 900px;
+        height: 800px;
       }
       .producto1__titulo{
         color: $white;
@@ -225,22 +251,42 @@ body{
 
     .card{
       width: 80%;
+      margin-top: 10px;
     }
     .card__img:hover{
       transition: 500ms;
       transform:scale(1.2);
     }
 
-
+    .productosXbox__titulo{
+      font-family: 'DotGothic16', sans-serif;
+      padding-top: 40px;
+      color: $greenXbox;
+      font-size: 50px;
+    }
+    .productosPS__titulo{
+      font-family: 'DotGothic16', sans-serif;
+      padding-top: 40px;
+      color: $light_blue;
+      font-size: 50px;
+    }
+    .modal{
+      text-align: center;
+      .version{
+        background: rgb(175, 175, 175);
+        border-radius: 20px;
+      }
+      .modal-title{
+        color: $greenXbox;
+      }
+    }
+    
     .footer{
+      margin-top: 200px;
+    }
+    .footer, .derechos{
       background: $black;
       color: $white;
-      @media (min-width: 370px) and (max-width: 380px){
-        @include size(375px, 180px);
-      }
-      @media (min-width: 310px) and (max-width: 330px){
-        @include size(320px, 180px);
-      } 
       .footer__registro{
         text-decoration: none;
         color: $light_blue;
@@ -283,6 +329,19 @@ body{
       .footer__lista__derechos{
         display: flex;
         justify-content: space-between;
+      }
+    }
+    .desing{
+      background-color: rgb(170, 165, 165);
+      padding: 1%;
+      p{
+        color: $black;
+
+      }
+      .name{
+        font-family: 'Pacifico', cursive;
+        font-size: 25px;
+        color: $red;
       }
     }  
   }

@@ -1,0 +1,128 @@
+[{
+  "id": 1,
+  "tittle": "Call of Duty Black Ops Cold War",
+  "info": "Call of Duty: Black Ops Cold War es un videojuego de disparos en primera persona desarrollado por Treyarch y Raven Software y  publicado por Activision. Es la quinta entrega y a la vez es un reboot de la serie Black Ops y el decimoséptimo Call of Duty.",
+  "img":"https://store-images.s-microsoft.com/image/apps.25992.13992297318455813.7f45ef4a-6ca3-4445-b6fc-9f00be7560b6.0367424f-9788-47e6-b8ea-e71067da1d53?mode=scale&q=90&h=300&w=200&background=%23FFFFFF",
+  "img1":"https://store-images.s-microsoft.com/image/apps.25992.13992297318455813.7f45ef4a-6ca3-4445-b6fc-9f00be7560b6.0367424f-9788-47e6-b8ea-e71067da1d53?mode=scale&q=90&h=300&w=200&background=%23FFFFFF",
+  "img2":"https://store-images.s-microsoft.com/image/apps.25992.13992297318455813.7f45ef4a-6ca3-4445-b6fc-9f00be7560b6.0367424f-9788-47e6-b8ea-e71067da1d53?mode=scale&q=90&h=300&w=200&background=%23FFFFFF"
+}, {
+  "id": 2,
+  "tittle": "FIFA 21",
+  "marca": "Beckham Edition",
+  "precio": 3500,
+  "img":"https://store-images.s-microsoft.com/image/apps.58746.13745117879933054.43475671-c14f-4311-9294-c2fcb043753e.64006f6b-8a26-4fc1-93be-a49844ab9000?mode=scale&q=90&h=300&w=200&background=%23FFFFFF"
+}, {
+  "id": 3,
+  "tittle": "Assassin's Creed",
+  "marca": "Valhalla",
+  "precio": 3600,
+  "img":"https://store-images.s-microsoft.com/image/apps.1547.14585440003614248.9f7109bf-73f7-4bc7-ba61-1eeb006d905a.75930d81-6e85-436d-9b61-1279b8dd9b31"
+},{
+  "id":4,
+  "tittle": "Cyberpunk 2077",
+  "marca": "Standar Edition",
+  "precio":2500,
+  "img":"https://store-images.s-microsoft.com/image/apps.20969.63407868131364914.0f6bcae3-6458-450b-bfc3-7cb0553c6674.93e7c9e8-a2e6-4d89-a002-c1aa2cc7cb2a"
+}, {
+  "id":5,
+  "tittle": "Far Cry 4",
+  "marca": "Gold Edition",
+  "precio":530,
+  "img":"https://store-images.s-microsoft.com/image/apps.33862.70272510110769888.b5938d97-b90e-4a3b-a338-1e2ca7788983.8db8474c-ed8a-459f-91e8-3093f856067a?mode=scale&q=90&h=300&w=200&background=%23FFFFFF"
+}, {
+  "id":6,
+  "tittle": "Far Cry 5",
+  "marca": "Standar Edition",
+  "precio":2300,
+  "img":"https://store-images.s-microsoft.com/image/apps.11227.69582963086497758.e1cff2e3-ddf1-42bf-930d-f380ad63f100.38d7bb7c-3e33-471b-b22d-0f0a635832ad"
+}, {
+  "id":7,
+  "tittle": "eFootball",
+  "marca": "PES 2021",
+  "precio":2200, 
+  "img":"https://store-images.s-microsoft.com/image/apps.55479.14435264726618422.b6211ca6-c5c0-470a-af4b-2e46a7ee1e99.06bde83b-3462-4996-9c4a-fa6e7bee02a8?mode=scale&q=90&h=300&w=200&background=%23FFFFFF"
+}, {
+  "id":8,
+  "tittle": "NBA 2K21",
+  "marca": "Standar Edition",
+  "precio":1900,
+  "img":"https://store-images.s-microsoft.com/image/apps.21520.14522552561148096.987376a7-b8c2-4bec-8d4f-48e4b6df5630.1a1aefd0-15dd-44a2-8303-be7a96288f1e"
+}, {
+  "id":9,
+  "tittle": "Star Wars Jedi",
+  "marca": "Fallen Order Deluxe Edition",
+  "precio":1900,
+  "img":"https://store-images.s-microsoft.com/image/apps.34308.13842592194848671.ea893aa9-a235-46fc-b407-5d5eff0a9039.e5b65f31-a08f-4791-9243-bb56ae3c45d2"
+}, {
+  "id":10,
+  "tittle": "Resident Evil",
+  "marca": "Standar Edition",
+  "precio":200,
+  "img":"https://store-images.s-microsoft.com/image/apps.39684.67692664087020494.db738e63-b6d5-4872-854d-74452f0cf9a7.e104a3ce-8f38-409a-a2b9-c9d1dc5b39e2?mode=scale&q=90&h=300&w=200"
+}, {
+  "id":11,
+  "tittle": "Resident Evil II Revalations",
+  "marca": "Deluxe Edition",
+  "precio":300,
+  "img":"https://store-images.s-microsoft.com/image/apps.55959.63460683299249965.ecfe14f9-0c4f-45db-b560-6dd8aa48c5b7.48589b51-6136-414c-94ea-7f2b430f7368?mode=scale&q=90&h=300&w=200&background=%23FFFFFF"
+}, {
+  "id":12,
+  "tittle": "Resident Evil III",
+  "marca": "Standar Edition",
+  "precio":2200,
+  "img":"https://cdn-products.eneba.com/resized-products/g7QZ7MReBTAiWCuyToeFHm6IkUK0j3CAnGJVBqIjccw_350x200_1x-0.jpeg"
+}, {
+  "id":13,
+  "tittle": "Resident Evil IV",
+  "marca": "Standar Edition",
+  "precio":350,
+  "img":"https://store-images.s-microsoft.com/image/apps.35225.65720361252122895.6705784f-9e29-4778-8df4-707828cc2c63.4663d4ff-97a1-4835-9c9b-ce7c63ca7d85?mode=scale&q=90&h=300&w=200"
+}, {
+  "id":14,
+  "tittle": "Resident Evil V",
+  "marca": "Standar Edition",
+  "precio":350,
+  "img":"https://store-images.s-microsoft.com/image/apps.59469.64671248987334422.19b0f72f-a5aa-4961-92cc-db687c1f0d12.06c31dfe-b853-4ad7-bbaa-92ebd9be9a18?mode=scale&q=90&h=300&w=200"
+}, {
+  "id":15,
+  "tittle": "Resident Evil VI",
+  "marca": "Standar Edition",
+  "precio":350,
+  "img":"https://store-images.s-microsoft.com/image/apps.7927.63597671146263909.1ae05f04-38d2-452b-a2b1-a872cb9d6303.73a32ee9-7ba8-4c2c-ab0b-879d2699ee2a?mode=scale&q=90&h=300&w=200"
+}, {
+  "id":16,
+  "tittle": "Watch Dogs",
+  "marca": "Standar Edition",
+  "precio":900,
+  "img":"https://cdn-products.eneba.com/resized-products/ajurf4wbbwoasbanwkv9_350x200_1x-0.jpg"
+}, {
+  "id":17,
+  "tittle": "Watch Dogs 2",
+  "marca": "Deluxe Edition",
+  "precio":3400,
+  "img":"https://store-images.s-microsoft.com/image/apps.8986.68530581772287913.7cc7514d-46f2-4843-931d-c332d746ffad.f019fa69-0614-40da-a2e6-1034e7f35fc9?mode=scale&q=90&h=300&w=200&background=%23FFFFFF"
+}, {
+  "id":18,
+  "tittle": "Watch Dogs Legion",
+  "marca": "Gold Edition",
+  "precio":5500,
+  "img":"https://store-images.s-microsoft.com/image/apps.39386.69339232579826313.f6954576-89f8-4deb-9b78-eceb9d59a7b8.e835f946-734b-4567-bd36-e7c180a6ccf2"
+}, {
+  "id":19,
+  "tittle": "DOOM",
+  "marca": "Standar Edition",
+  "precio":400,
+  "img":"https://store-images.s-microsoft.com/image/apps.18860.66773763610413114.5c7115ed-b566-4d24-80ce-7027cb5b7c3e.e1d91fd3-d9ed-4be4-aedf-437e5d9820fe?mode=scale&q=90&h=300&w=200"
+}, {
+  "id":20,
+  "tittle": "Metro Exodus",
+  "marca": "Gold Edition",
+  "precio":2900,
+  "img":"https://store-images.s-microsoft.com/image/apps.38521.65947022139350472.31941bc7-f3a2-46b9-a7dc-a7c0ae691dbf.c6b5f721-53f3-468d-b78a-5ec348311643"
+}, {
+  "id":21,
+  "tittle": "Grand Theft Auto V",
+  "marca": "Premium Edition",
+  "precio":1150,
+  "img":"https://store-images.s-microsoft.com/image/apps.43187.66515090704019777.7fa547c1-c211-4229-a4d3-3ceef762e0a4.757bf1c2-f967-4386-9ff1-16da7dd19307?mode=scale&q=90&h=300&w=200&background=%23FFFFFF"
+}]
