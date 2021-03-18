@@ -203,6 +203,10 @@ body {
         @media (min-width: 420px) {
           body .container-fluid .imgConsolas .imgConsolas__titulo {
             font-size: 13px; } }
+        @media (min-width: 992px) {
+          body .container-fluid .imgConsolas .imgConsolas__titulo {
+            font-size: 50px;
+            color: #fc08f0; } }
     body .container-fluid .producto4 {
       background-image: url(../img/games/hitman.jpg);
       height: 500px;
@@ -219,9 +223,21 @@ body {
     body .container-fluid .card {
       width: 80%;
       margin-top: 10px; }
+      body .container-fluid .card .card__img {
+        height: 400px; }
+      body .container-fluid .card .btn__add {
+        width: 100%; }
+      body .container-fluid .card .btn__add:hover {
+        transition: 500ms;
+        transform: scale(1.2);
+        background-color: green; }
+      body .container-fluid .card .card_version {
+        background: #afafaf;
+        border-radius: 20px; }
     body .container-fluid .card__img:hover {
       transition: 500ms;
-      transform: scale(1.2); }
+      transform: scale(1.2);
+      border-radius: 50px; }
     body .container-fluid .productosXbox__titulo {
       font-family: 'DotGothic16', sans-serif;
       padding-top: 40px;

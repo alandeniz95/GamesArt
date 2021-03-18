@@ -23,6 +23,7 @@ const pintarProductos = (data) =>{
     template.querySelector('h5').textContent = producto.tittle;
     template.querySelector('h6').textContent = producto.marca;
     template.querySelector('p span').textContent = producto.precio;
+    template.querySelector('.card_version').textContent = producto.version;
     template.querySelector('button').dataset.id = producto.id;
 
 

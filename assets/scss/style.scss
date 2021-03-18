@@ -231,6 +231,10 @@ body{
         @media (min-width: 420px){
           font-size: $texto_mediano;
         }
+        @media (min-width: 992px){
+          font-size: 50px;
+          color: rgb(252, 8, 240);
+        }
       }
     }
     .producto4{
@@ -252,10 +256,26 @@ body{
     .card{
       width: 80%;
       margin-top: 10px;
+      .card__img{
+        height: 400px;
+      }
+      .btn__add{
+        width: 100%;
+      }
+      .btn__add:hover{
+        transition: 500ms;
+        transform:scale(1.2);
+        background-color: $greenXbox;
+      }
+      .card_version{
+        background: rgb(175, 175, 175);
+        border-radius: 20px;
+      }
     }
     .card__img:hover{
       transition: 500ms;
       transform:scale(1.2);
+      border-radius: 50px;
     }
 
     .productosXbox__titulo{
@@ -270,6 +290,7 @@ body{
       color: $light_blue;
       font-size: 50px;
     }
+    
     .modal{
       text-align: center;
       .version{
